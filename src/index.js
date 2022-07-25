@@ -1,46 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Remarkable from 'remarkable-react';
 
-
-class Testing extends React.Component {
-	constructor(props) {
-		super(props);
-		this.md = new Remarkable();
-		this.handleChange = this.handleChange.bind(this);
-		this.state = { value: 'Hello, **world**!' };
-	  }
-	
-	  handleChange(e) {
-		this.setState({ value: e.target.value });
-	  }
-	
-	  getRawMarkup() {
-		return { __html: this.md.render(this.state.value) };
-	  }
-	
-	  render() {
-		return (
-		  <div className="MarkdownEditor">
-			<h3>Input</h3>
-			<label htmlFor="markdown-content">
-			  Enter some markdown
-			</label>
-			<textarea
-			  id="markdown-content"
-			  onChange={this.handleChange}
-			  defaultValue={this.state.value}
-			/>
-			<h3>Output</h3>
-			<div
-			  className="content"
-			  dangerouslySetInnerHTML={this.getRawMarkup()}
-			/>
-		  </div>
-		);
-	  }
-}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Testing name="Nitin" />);
+root.render(
+  <React.StrictMode>
+    <div>Resume app is here.</div>
+  </React.StrictMode>
+);
