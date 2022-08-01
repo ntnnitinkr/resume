@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Aboutme from "./components/aboutme";
 import { Scrollbars } from "react-custom-scrollbars-2";
+import Header from "./components/header";
+import AboutMe from "./components/aboutme";
+import Experience from "./components/experience";
 
 const debounce = function (fn, ms) {
   let timer;
@@ -42,7 +44,9 @@ const App = () => {
         autoHideTimeout={1000}
         autoHideDuration={200}
       >
-        <Aboutme />
+        <Header />
+        <AboutMe />
+        <Experience />
       </Scrollbars>
     </>
   );

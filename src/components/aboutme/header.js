@@ -1,75 +1,112 @@
-import React, { useLayoutEffect, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./header.css";
 import { motion } from "framer-motion";
+import data from "../../assets/data.json";
+import expLogo from "../../assets/experience.png";
+import proLogo from "../../assets/projects.png";
 
-const debounce = function (fn, ms) {
-  let timer;
-  return (_) => {
-    clearTimeout(timer);
-    timer = setTimeout((_) => {
-      timer = null;
-      fn.apply(this, arguments);
-    }, ms);
-  };
+const textVariants = {
+  offscreen: {
+    opacity: 0,
+    y: 30,
+  },
+  onscreen: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      ease: "anticipate",
+      duration: 1,
+    },
+  },
 };
 
-const HeaderFrame = ({ width, height }) => {
+const cardVariants = {
+  offscreen: {
+    opacity: 0,
+    scale: 0.8,
+  },
+  onscreen: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      ease: "anticipate",
+      duration: 1,
+    },
+  },
+  hover: {
+    scale: 1.1,
+    transition: {
+      type: "spring",
+      duration: 0.5,
+    },
+  },
+};
+
+const SectionHeader = () => {
   return (
-    <motion.div
-      initial={{ opacity: 1, scale: 1.1 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ ease: "anticipate", duration: 2 }}
-    >
-      <svg
-        id="header-frame"
-        class="header-frame"
-        width="100%"
-        height="100%"
-        viewBox={`0 0 ${width} ${height}`}
-        fill="white"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect
-          x="20"
-          y="20"
-          width={width - 40}
-          height={height - 40}
-          fill="#004737"
-          rx="20"
-        />
-      </svg>
-    </motion.div>
+    <>
+      <div className="container-aboutme">
+        <motion.div
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.5 }}
+        >
+          <motion.div class="section-title" variants={textVariants}>
+            About Me
+          </motion.div>
+        </motion.div>
+
+        <motion.div
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.1 }}
+        >
+          <motion.div class="section-subtitle" variants={textVariants}>
+            <div class="section-subtitle-quote">
+              <span>Failure Is The Power That Gives </span>
+              <span class="light-green-text">Success</span>
+            </div>
+            <div class="section-subtitle-description">
+              <span class="verticle-line"></span>
+              <span class="text">{data.aboutMe.description}</span>
+            </div>
+          </motion.div>
+        </motion.div>
+      </div>
+      <div className="container-aboutme">
+        <div class="section-experience">
+          <motion.div
+            class="section-experience-box-left"
+            variants={cardVariants}
+            whileHover="hover"
+            initial="offscreen"
+            whileInView="onscreen"
+            viewport={{ once: true, amount: 0.8 }}
+          >
+            <img class="section-experience-logo" width="60px" src={expLogo} />
+            <span class="section-experience-title">
+              {data.aboutMe.yearOfExperience}
+            </span>
+            <span class="section-experience-subtitle">Years of Experience</span>
+          </motion.div>
+          <motion.div
+            class="section-experience-box-right"
+            variants={cardVariants}
+            whileHover="hover"
+            initial="offscreen"
+            whileInView="onscreen"
+            viewport={{ once: true, amount: 0.8 }}
+          >
+            <img class="section-experience-logo" width="90px" src={proLogo} />
+            <span class="section-experience-title">
+              {data.aboutMe.projectsCompleted}
+            </span>
+            <span class="section-experience-subtitle">Projects Completed</span>
+          </motion.div>
+        </div>
+      </div>
+    </>
   );
 };
 
-const Header = () => {
-  const [dimensions, setDimensions] = useState({
-    height: window.innerHeight,
-    width: window.innerWidth,
-  });
-
-  useEffect(() => {
-    const debouncedHandleResize = debounce(function handleResize() {
-      setDimensions({
-        height: window.innerHeight,
-        width: window.innerWidth,
-      });
-    }, 0);
-    window.addEventListener("resize", debouncedHandleResize);
-    return (_) => {
-      window.removeEventListener("resize", debouncedHandleResize);
-    };
-  });
-
-  return (
-    <div
-      class="container-aboutme"
-      width={dimensions.width}
-      height={dimensions.height}
-    >
-      <HeaderFrame width={dimensions.width} height={dimensions.height} />
-    </div>
-  );
-};
-
-export default Header;
+export default SectionHeader;

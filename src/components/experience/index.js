@@ -1,8 +1,8 @@
 import React from "react";
 import SectionHeader from "./header";
 
-const AboutMe = () => {
+const Experience = () => {
   return <SectionHeader />;
 };
 
-export default AboutMe;
+export default Experience;

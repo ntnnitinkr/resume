@@ -1,16 +1,92 @@
 .container-aboutme{
     background-color: white;
-    width: 100%;
-    height: 100%;
-
-
-}  
-
-.container-aboutme .header-frame{
-    
+    padding: 0 15%;
 }
 
-.container-aboutme h1{
-    color: red;
-    margin: 0;
+.container-aboutme .section-title{
+    font-size: 80px;
+    color: #004737;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container-aboutme .section-subtitle{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.container-aboutme .section-subtitle .section-subtitle-quote{
+    width: 40%;
+    padding-right: 33%;
+    padding-top: 10px;
+    float: left;
+    color: #004737;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container-aboutme .section-subtitle .section-subtitle-description{
+    width: 60%;
+    float: right;
+    display: flex;
+}
+
+.container-aboutme .section-subtitle .section-subtitle-description .text{
+    padding: 10px 0 10px 30px;
+    color: rgba(0,71,55,.6);
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+}
+
+.verticle-line{
+    height: 100%;
+    width: 12px;
+    background-color: #004737;
+    border-radius: 99px;
+}
+
+.light-green-text{
+    color: #56F09F;
+}
+
+.container-aboutme .section-experience{
+    display: flex;
+    padding-bottom: 100px;
+    color: #004737;
+}
+
+.container-aboutme .section-experience .section-experience-box-left{
+    float: left;
+    width: 30%;
+    margin-right: 30%;
+    background-color: #FAF2D5;
+    border-radius: 20px;
+}
+
+.container-aboutme .section-experience .section-experience-box-right{
+    float: right;
+    width: 30%;
+    background-color: #FAF2D5;
+    border-radius: 20px;
+}
+
+.section-experience-title{
+    padding: 30px 0 0 60px;
+    display: block;
+    font-size: 80px;
+}
+
+.section-experience-subtitle{
+    padding: 10px 0 30px 60px;
+    display: block;
+    font-size: 20px;
+}
+
+.section-experience-logo{
+    position: relative;
+    top: 45px;
+    right: 50px;
+    float: right;
 }

@@ -1,0 +1,17 @@
+.container-experience{
+    background-color: white;
+    padding: 8% 10%;
+}
+
+.container-experience .section-title{
+    font-size: 80px;
+    color: #004737;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.container-experience .experience-background{
+    position: absolute;
+    width: 80%;
+}
