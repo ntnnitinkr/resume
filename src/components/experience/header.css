@@ -1,9 +1,10 @@
-.container-experience{
+.container-experience {
     background-color: white;
     padding: 8% 10%;
+    position: relative;
 }
 
-.container-experience .section-title{
+.container-experience .section-title {
     font-size: 80px;
     color: #004737;
     margin: 0 auto;
@@ -11,7 +12,47 @@
     text-align: center;
 }
 
-.container-experience .experience-background{
+.container-experience .experience-background {
     position: absolute;
     width: 80%;
+}
+
+.container-experience .gradient-hide-top {
+    position: absolute;
+    height: 10rem;
+    width: 78%;
+    margin-left: 20px;
+    margin-top: 7.5%;
+    z-index: 20;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(88,240,159,1),  rgba(88,240,159,1));
+}
+
+.container-experience .gradient-hide-bottom {
+    position: absolute;
+    height: 10rem;
+    width: 78%;
+    margin-left: 20px;
+    margin-top: 35%;
+    z-index: 20;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(88,240,159,1),  rgba(88,240,159,1));
+}
+
+.body-experience {
+    z-index: 10;
+    position: relative;
+    margin: auto;
+    width: 40%;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+
+.body-experience .empty-gap {
+    height: 10rem;
+}
+
+.track-vertical {
+    width: 0px;
+    behavior: 'smooth';
 }

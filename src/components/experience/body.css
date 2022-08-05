@@ -1,0 +1,48 @@
+.horizontal-line~.horizontal-line {
+    background-color: #004737;
+    width: 100%;
+    height: 2px;
+}
+
+.body-job-detail {
+    position: relative;
+    font-size: 30px;
+    color: #004737;
+    padding: 20px 0;
+    min-height: 4.5rem;
+    -webkit-transition: height 1s ease-in-out;
+    -moz-transition: height 1s ease-in-out;
+    -o-transition: height 1s ease-in-out;
+    transition: height 1s ease-in-out;
+}
+
+.body-job-detail .year-range {
+    /*display: inline-block;*/
+    position: absolute;
+    font-size: 17px;
+}
+
+.body-job-detail .job-title {
+    position: absolute;
+    padding-left: 12rem;
+}
+
+.body-job-detail .company-name {
+    position: absolute;
+    padding-left: 12rem;
+    padding-top: 3rem;
+    font-size: 20px;
+}
+
+.body-job-detail .job-description {
+    position: relative;
+    padding-left: 80px;
+    width: 57%;
+}
+
+.body-job-detail .job-description .job-point {
+    position: relative;
+    font-size: 20px;
+    padding: 5px 0;
+    display: list-item;
+}

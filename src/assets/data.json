@@ -5,5 +5,48 @@
         "description": "Work for organisation which provides me the opportunity toimprove my skills and knowledge to grow along with fulfilment of organisational goals.",
         "yearOfExperience": "4+",
         "projectsCompleted": "10+"
-    }
+    },
+    "experience": [{
+            "id": 100,
+            "yearRange": "2018 - Present",
+            "title": "Developer",
+            "company": "IBM",
+            "detail": ["Created Batches, Algorithms, Business Services, Scripts, etc", "Worked on UI maps", "Troubleshooting the exceptions occuring in CC&B Batch code", "Worked as admin for DB and Middleware for 2 months"]
+        },
+        {
+            "id": 2,
+            "yearRange": "2018 - Present",
+            "title": "Web Development",
+            "company": "IBM",
+            "detail": ["Creative web developer for developing and optimising interactive, user-friendly, and feature-rich websites", "Analytical skills in order to deliver modern and efficient web solutions", "Built Market360 Executive Dashboard to monitor Market Transactions. It was built on Angular9 and NodeJS for APIs. For more details: https://github.com/ntnnitinkr/projects/tree/master/market360", "Health Planner web application which was part of RedHatHackathonPlus2020 conducted by IBM. It was built on Angular8 and ReactJS. Machine Learning was applied using Watson Services. For more details: https://github.com/ntnnitinkr/projects/tree/master/healthPlanner"]
+        },
+        {
+            "id": 3,
+            "yearRange": "2017 - Present",
+            "title": "Graphic Designer",
+            "company": "Freelancer",
+            "detail": ["Created attractive infographics advertisments", "Created many unique phamplets", "Created vector characters and icons as per requirement"]
+        },
+        {
+            "id": 4,
+            "yearRange": "2017 - Present",
+            "title": "Animator",
+            "company": "Freelancer",
+            "detail": ["Created highly attactive graphic animation videos for education"]
+        },
+        {
+            "id": 5,
+            "yearRange": "2018 - Present",
+            "title": "Data Analytics",
+            "company": "IBM",
+            "detail": ["Learnt about Machine Learning, Deep Learning, Statistical Model, etc from IBM provided learning platform", "Batch Performance Tool which shows past trend analysis and predict batches performance using applied Machine Learning", "Predict the customer satisfaction using Outages Experience using AI", "Health Planner application to diagnos X-Ray using Watson Deep Learning Algorithm"]
+        },
+        {
+            "id": 6,
+            "yearRange": "2018 - Present",
+            "title": "Automation",
+            "company": "IBM",
+            "detail": ["Knowledge of UNIX commands and scripting", "Design new algorithms and scripts to build/automate the work like Outage creation, Meter validation, Meter read, etc. using Selenium scripting (Java Code), Robotic Process Automation (RPA)", "Design, implement and schedule the execution of batches in Production as well as Lower Environments using Computer Associates Workload Automation (CAWA)", "Experience with testing web services, APIs using tool SOAPUI and Postman", "Experience in UI automation using Java and Selenium", "Create and execute (manual or automated) sanity and functional/non-functional tests (performance, security, etc)"]
+        }
+    ]
 }
