@@ -10,10 +10,10 @@
     color: #004737;
     padding: 20px 0;
     min-height: 4.5rem;
-    -webkit-transition: height 1s ease-in-out;
-    -moz-transition: height 1s ease-in-out;
-    -o-transition: height 1s ease-in-out;
-    transition: height 1s ease-in-out;
+    -webkit-transition: height 0.5s ease-in-out;
+    -moz-transition: height 0.5s ease-in-out;
+    -o-transition: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
 }
 
 .body-job-detail .year-range {
@@ -37,12 +37,12 @@
 .body-job-detail .job-description {
     position: relative;
     padding-left: 80px;
-    width: 57%;
+    width: 61%;
 }
 
 .body-job-detail .job-description .job-point {
     position: relative;
-    font-size: 20px;
+    font-size: 17px;
     padding: 5px 0;
     display: list-item;
 }

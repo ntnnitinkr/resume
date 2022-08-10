@@ -7,46 +7,107 @@
         "projectsCompleted": "10+"
     },
     "experience": [{
-            "id": 100,
-            "yearRange": "2018 - Present",
-            "title": "Developer",
-            "company": "IBM",
-            "detail": ["Created Batches, Algorithms, Business Services, Scripts, etc", "Worked on UI maps", "Troubleshooting the exceptions occuring in CC&B Batch code", "Worked as admin for DB and Middleware for 2 months"]
+            "id": 1,
+            "yearRange": "Sep-2021 to Present",
+            "title": "Technical Lead",
+            "company": "IBM | Dallas, TX, US",
+            "detail": ["Energy Efficiency Contractor Portal (EEPM) project - Leading team of 5 and implementing features like login functionality, populate events in calendar, incentive calculator, etc.",
+                "Diversity, Equity & Inclusion (DEI) project - Led team of 6 and implemented features like login integration with SharePoint intranet site, chat button, search bar, etc. This project was selected for 2022 Innovation Reward",
+                "Oncor.com project - Led team of 15 and delivered it seamlessly with over 65 custom web pages",
+                "Built and automated the Akamai Cache purge process directly from Adobe Experience Manager (AEM)",
+                "Created and implemented an application on RedHat OpenShift to integrate AEM logs with Log Logic system",
+                "Doing role of Admin in AEM. In addition, automated deployment from Bitbucket source code to AEM using Jenkins and CI/CD pipeline",
+                "Created training materials and held training sessions for Functional Partners",
+                "Planning and doing go-Live deployments for projects",
+                "Leading an Agile Scrum team in designing, implementing, and releasing several projects, with code reviews and high-test coverage",
+                "Working closely with Functional Partners and Project Manager to triage tickets so other developers could focus solely on coding",
+                "Received lot of appreciations directly from client on every back-to-back success of projects",
+                "Came onsite and joined struggling project to get that back on track and delivered it on time"
+            ]
         },
         {
             "id": 2,
-            "yearRange": "2018 - Present",
-            "title": "Web Development",
-            "company": "IBM",
-            "detail": ["Creative web developer for developing and optimising interactive, user-friendly, and feature-rich websites", "Analytical skills in order to deliver modern and efficient web solutions", "Built Market360 Executive Dashboard to monitor Market Transactions. It was built on Angular9 and NodeJS for APIs. For more details: https://github.com/ntnnitinkr/projects/tree/master/market360", "Health Planner web application which was part of RedHatHackathonPlus2020 conducted by IBM. It was built on Angular8 and ReactJS. Machine Learning was applied using Watson Services. For more details: https://github.com/ntnnitinkr/projects/tree/master/healthPlanner"]
+            "yearRange": "Dec-2020 to Aug-2021",
+            "title": "Sr Web Developer",
+            "company": "IBM | Pune, MH, IN",
+            "detail": ["Designed and developed Market360 Executive Dashboard to monitor Market Transactions. It was built on Angular9 and NodeJS for APIs",
+                "Solely responsible for design and development of WebLogic log-fetch Utility using Python. It fetches health status & mine logs for errors in each server in WebLogic Domain using REST APIs",
+                "Came up with idea and designed Sentiment Analysis web application based on Self Machine Learning Model. It provides the customer experience/behavior based on their provided comments",
+                "Contributed to new organization tools such as AEM, AWS and RedHat to improve throughput",
+                "Deployed and managed backend applications based on RedHat OpenShift",
+                "Implemented Google and Adobe Analytics to various web applications",
+                "Gained experience working in a huge code base, debugging complex problems, and designing components that must interact seamlessly with numerous parts of the system",
+                "Responsible for creating and maintaining core components of our day-to-day development",
+                "Collaborated with project manager and creative team to deliver efficient solution, in addition advised client and provided expertise",
+                "Assisted other team in developing and maintaining their web application",
+                "Mentored junior developers to improve their technical skills"
+            ]
         },
         {
             "id": 3,
-            "yearRange": "2017 - Present",
-            "title": "Graphic Designer",
-            "company": "Freelancer",
-            "detail": ["Created attractive infographics advertisments", "Created many unique phamplets", "Created vector characters and icons as per requirement"]
+            "yearRange": "Oct-2019 to Nov-2020",
+            "title": "Web Developer",
+            "company": "IBM | Pune, MH, IN",
+            "detail": ["Designed and developed Health Planner web application which was part of IBM competition. Developed microservices using Python, implemented features like COVID data using API, diagnose X-Ray using Watson Deep Learning Algorithm. Created interactive presentation and demo video for application",
+                "Rewarded with money and certification for securing 2nd position in IBM RedHatHackathonPlus2020 competition",
+                "Designed and developed Outage Experience web application predicts the customer satisfaction using AI",
+                "Developed customer-facing systems using AngularJS/Node.js",
+                "Developed, maintained and improved web application code as per requirements",
+                "Troubleshooted various IT technical difficulties for other coworkers in a quick and efficient manner which resulted in an increase in productivity",
+                "Received Appreciation Certificate directly from client for performing great work"
+            ]
         },
         {
             "id": 4,
-            "yearRange": "2017 - Present",
-            "title": "Animator",
-            "company": "Freelancer",
-            "detail": ["Created highly attactive graphic animation videos for education"]
+            "yearRange": "Dec-2018 to Sep-2019",
+            "title": "Jr Web Developer",
+            "company": "IBM | Pune, MH, IN",
+            "detail": ["Solely responsible for representing the Batch Performance web tool idea and worked on design, architecture, development and deployment of entire application. Many other clients also implemented this tool",
+                "Batch Performance Tool is a web application which shows past trend analysis and predict batches performance using applied Machine Learning. This has patent on my name",
+                "Learnt about Machine Learning, Deep Learning, Statistical Model, etc. from IBM provided learning platform",
+                "Creative web developer for developing and optimizing interactive, user-friendly, and feature-rich websites",
+                "Analytical skills to deliver modern and efficient web solutions",
+                "Written clean and readable code with robust documentation for easy comprehension",
+                "Awarded Manager's Choice Award for performing great work"
+            ]
         },
         {
             "id": 5,
-            "yearRange": "2018 - Present",
-            "title": "Data Analytics",
-            "company": "IBM",
-            "detail": ["Learnt about Machine Learning, Deep Learning, Statistical Model, etc from IBM provided learning platform", "Batch Performance Tool which shows past trend analysis and predict batches performance using applied Machine Learning", "Predict the customer satisfaction using Outages Experience using AI", "Health Planner application to diagnos X-Ray using Watson Deep Learning Algorithm"]
+            "yearRange": "May-2018 to Nov-2018",
+            "title": "Jr CC&B Developer",
+            "company": "IBM | Pune, MH, IN",
+            "detail": ["Created Batches, Algorithms, Business Services, Scripts, UI maps, etc.",
+                "Troubleshooted the exceptions occurring in CC&B Batch code",
+                "Worked as admin for CC&B Database and Middleware. Experienced in UNIX commands and scripting",
+                "Designed new algorithms and scripts to automate the sanity tests like Outage creation, Meter validation, Meter read, etc. using Selenium scripting (Java Code) and Robotic Process Automation (RPA) for functional and non-functional requirements",
+                "Designed, implemented and scheduled the execution of batch jobs using Computer Associates Workload Automation (CAWA)",
+                "Experienced in testing web services, APIs using tools SOAPUI and Postman",
+                "Awarded Best Graduate Hire for performing great work"
+            ]
         },
         {
             "id": 6,
-            "yearRange": "2018 - Present",
-            "title": "Automation",
-            "company": "IBM",
-            "detail": ["Knowledge of UNIX commands and scripting", "Design new algorithms and scripts to build/automate the work like Outage creation, Meter validation, Meter read, etc. using Selenium scripting (Java Code), Robotic Process Automation (RPA)", "Design, implement and schedule the execution of batches in Production as well as Lower Environments using Computer Associates Workload Automation (CAWA)", "Experience with testing web services, APIs using tool SOAPUI and Postman", "Experience in UI automation using Java and Selenium", "Create and execute (manual or automated) sanity and functional/non-functional tests (performance, security, etc)"]
+            "yearRange": "May-2017 to Apr-2018",
+            "title": "Animator",
+            "company": "Schoov | Gurugram, HR, IN",
+            "detail": ["Worked closely with Founder & CEO of startup to achieve best quality product",
+                "Created highly attractive graphic animation videos for education, incorporating stunning visuals and integrating relevant audio and video components",
+                "Worked on Audacity software to clean and amplify audio",
+                "Designed many advertisements to boost the startup journey",
+                "Created over 120 videos using Adobe After Effect and Abobe Premier Pro",
+                "Came up with innovative ideas to enhance the video experience"
+            ]
+        },
+        {
+            "id": 7,
+            "yearRange": "Jan-2016 to Apr-2017",
+            "title": "Graphic Designer",
+            "company": "Freelancer | Remote",
+            "detail": ["Created attractive infographics advertisements",
+                "Created many unique and stunning pamphlets",
+                "Created vector characters and icons as per requirement",
+                "Won a prize from Indian government for unique designed logo"
+            ]
         }
     ]
 }

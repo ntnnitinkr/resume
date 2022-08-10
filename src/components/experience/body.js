@@ -17,11 +17,20 @@ const ContentList = (props) => {
     height: "4.5rem",
   });
 
-  const handleClick = function (element) {
+  const handleClick = function (event) {
+    const jobDetailClass = event.target.closest(".body-job-detail");
+
     if (state.isOpen) {
       setState({ ...state, isOpen: false, height: "4.5rem" });
     } else {
-      setState({ ...state, isOpen: true, height: "17rem" });
+      if (
+        jobDetailClass === jobDetailClass.parentNode.childNodes[2] ||
+        jobDetailClass === jobDetailClass.parentNode.childNodes[4]
+      ) {
+        setState({ ...state, isOpen: true, height: "29rem" });
+      } else {
+        setState({ ...state, isOpen: true, height: "17rem" });
+      }
     }
   };
 
@@ -32,7 +41,7 @@ const ContentList = (props) => {
       isDetailOpen = true;
     }
     if (isDetailOpen) {
-      document.getElementById("body-experience").style.width = "80%";
+      document.getElementById("body-experience").style.width = "90%";
     } else {
       document.getElementById("body-experience").style.width = "40%";
     }
@@ -44,8 +53,8 @@ const ContentList = (props) => {
       <div
         className="body-job-detail"
         style={{ height: state.height }}
-        onClick={() => {
-          handleClick();
+        onClick={(event) => {
+          handleClick(event);
         }}
       >
         <div className="year-range">{props.item.yearRange}</div>
@@ -57,7 +66,7 @@ const ContentList = (props) => {
             initial={{ opacity: 0, x: 400 }}
             animate={{ opacity: 1, x: 450 }}
             exit={{ opacity: 0, x: 400 }}
-            transition={{ ease: "anticipate", delay: 0.5, duration: 1 }}
+            transition={{ ease: "anticipate", delay: 0.2, duration: 0.7 }}
           >
             {props.item.detail.map((point, i) => (
               <DetailPoints item={point} key={i} />
