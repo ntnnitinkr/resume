@@ -1,15 +1,30 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.cde93984.css",
-    "main.js": "/resume/static/js/main.d2a6e9f8.js",
+    "main.css": "/resume/static/css/main.5f62b992.css",
+    "main.js": "/resume/static/js/main.740894ef.js",
+    "static/media/apache_spark.png": "/resume/static/media/apache_spark.1db23544e2f423b2a2d3.png",
+    "static/media/jupyter_notebook.png": "/resume/static/media/jupyter_notebook.d9b0c631643f882f6737.png",
+    "static/media/java.png": "/resume/static/media/java.1e6d2e55988bbe2d46e4.png",
+    "static/media/sql.png": "/resume/static/media/sql.ef44db4d67b5ef0dcf2a.png",
+    "static/media/groovy.png": "/resume/static/media/groovy.55088fdbedfb1cd7d8b5.png",
+    "static/media/html.png": "/resume/static/media/html.376b35763c83ce8fd717.png",
+    "static/media/adobe_experience_manager.png": "/resume/static/media/adobe_experience_manager.3ff369b55c559f584263.png",
+    "static/media/javascript.png": "/resume/static/media/javascript.80e0a26281fb93027d07.png",
     "static/media/experience.png": "/resume/static/media/experience.5891159d6ef3d5f3505b.png",
     "static/media/projects.png": "/resume/static/media/projects.3655a7ef24749e455937.png",
+    "static/media/machine_learning.png": "/resume/static/media/machine_learning.4c769a43d884f7597ae1.png",
+    "static/media/react.png": "/resume/static/media/react.74fbde3d7fc952fa558f.png",
+    "static/media/python.png": "/resume/static/media/python.a130b5c9d3de2eb76cdd.png",
+    "static/media/angular.png": "/resume/static/media/angular.30092189483e1a2b6533.png",
+    "static/media/after_effects.png": "/resume/static/media/after_effects.9a5a7ca5d56fdd1364ec.png",
+    "static/media/premier_pro.png": "/resume/static/media/premier_pro.77c90e90346d9053ab51.png",
+    "static/media/css.png": "/resume/static/media/css.eb4a299d83b4b6063ff4.png",
     "index.html": "/resume/index.html",
-    "main.cde93984.css.map": "/resume/static/css/main.cde93984.css.map",
-    "main.d2a6e9f8.js.map": "/resume/static/js/main.d2a6e9f8.js.map"
+    "main.5f62b992.css.map": "/resume/static/css/main.5f62b992.css.map",
+    "main.740894ef.js.map": "/resume/static/js/main.740894ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.cde93984.css",
-    "static/js/main.d2a6e9f8.js"
+    "static/css/main.5f62b992.css",
+    "static/js/main.740894ef.js"
   ]
 }
