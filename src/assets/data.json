@@ -2,7 +2,7 @@
     "title": "Hello. I'm Nitin",
     "jobTitle": "Full Stack Developer",
     "aboutMe": {
-        "description": "Work for organisation which provides me the opportunity toimprove my skills and knowledge to grow along with fulfilment of organisational goals.",
+        "description": "Work for organisation which provides me the opportunity to improve my skills and knowledge to grow along with fulfilment of organisational goals.",
         "yearOfExperience": "4+",
         "projectsCompleted": "10+"
     },
@@ -31,7 +31,7 @@
             "title": "Sr Web Developer",
             "company": "IBM | Pune, MH, IN",
             "detail": ["Designed and developed Market360 Executive Dashboard to monitor Market Transactions. It was built on Angular9 and NodeJS for APIs",
-                "Solely responsible for design and development of WebLogic log-fetch Utility using Python. It fetches health status & mine logs for errors in each server in WebLogic Domain using REST APIs",
+                "Solely responsible for design and development of WebLogic log-fetch Utility using Python. It fetches health status & mine logs for errors in each server of WebLogic Domain using REST APIs",
                 "Came up with idea and designed Sentiment Analysis web application based on Self Machine Learning Model. It provides the customer experience/behavior based on their provided comments",
                 "Contributed to new organization tools such as AEM, AWS and RedHat to improve throughput",
                 "Deployed and managed backend applications based on RedHat OpenShift",
@@ -40,6 +40,7 @@
                 "Responsible for creating and maintaining core components of our day-to-day development",
                 "Collaborated with project manager and creative team to deliver efficient solution, in addition advised client and provided expertise",
                 "Assisted other team in developing and maintaining their web application",
+                "Made attractive and professional videos for many different events conducted in IBM and Oncor",
                 "Mentored junior developers to improve their technical skills"
             ]
         },
@@ -64,6 +65,7 @@
             "company": "IBM | Pune, MH, IN",
             "detail": ["Solely responsible for representing the Batch Performance web tool idea and worked on design, architecture, development and deployment of entire application. Many other clients also implemented this tool",
                 "Batch Performance Tool is a web application which shows past trend analysis and predict batches performance using applied Machine Learning. This has patent on my name",
+                "Made attractive and professional video for All Hands Meet event",
                 "Learnt about Machine Learning, Deep Learning, Statistical Model, etc. from IBM provided learning platform",
                 "Creative web developer for developing and optimizing interactive, user-friendly, and feature-rich websites",
                 "Analytical skills to deliver modern and efficient web solutions",
@@ -108,6 +110,124 @@
                 "Created vector characters and icons as per requirement",
                 "Won a prize from Indian government for unique designed logo"
             ]
+        }
+    ],
+    "skills": [{
+            "logo": "react.png",
+            "text": "React"
+        },
+        {
+            "logo": "angular.png",
+            "text": "Angular"
+        },
+        {
+            "logo": "html.png",
+            "text": "HTML"
+        },
+        {
+            "logo": "css.png",
+            "text": "CSS"
+        },
+        {
+            "logo": "javascript.png",
+            "text": "Javascript"
+        },
+        {
+            "logo": "adobe_experience_manager.png",
+            "text": "AEM"
+        },
+        {
+            "logo": "python.png",
+            "text": "Python"
+        },
+        {
+            "logo": "java.png",
+            "text": "Java"
+        },
+        {
+            "logo": "sql.png",
+            "text": "SQL"
+        },
+        {
+            "logo": "groovy.png",
+            "text": "Groovy"
+        },
+        {
+            "logo": "machine_learning.png",
+            "text": "Machine Learning"
+        },
+        {
+            "logo": "jupyter_notebook.png",
+            "text": "Jupyter Notebook"
+        },
+        {
+            "logo": "apache_spark.png",
+            "text": "Apache Spark"
+        },
+        {
+            "logo": "after_effects.png",
+            "text": "Adobe After Effects"
+        },
+        {
+            "logo": "premier_pro.png",
+            "text": "Adobe Premier Pro"
+        },
+        {
+            "logo": "photoshop.png",
+            "text": "Adobe Photoshop"
+        },
+        {
+            "logo": "illustrator.png",
+            "text": "Adobe Illustrator"
+        }
+    ],
+    "projects": [{
+            "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/sentimentAnalysis/Screenshots/Artboard%204.png",
+            "name": "Sentiment Analysis",
+            "description": "Sentiment Analysis is a proposed design based on Self Machine Learning Model. This web application isn't built yet.",
+            "link": "https://github.com/ntnnitinkr/projects/tree/master/sentimentAnalysis"
+        },
+        {
+            "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/market360/Screenshots/M360_4.png",
+            "name": "Market 360",
+            "description": "Market 360 is an Executive Dashboard and User Interfaces to monitor / track Market Transactions.",
+            "link": "https://github.com/ntnnitinkr/projects/tree/master/market360"
+        },
+        {
+            "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/BatchPerformance/images/Summary.png",
+            "name": "Batch Performance",
+            "description": "Batch Performance is the Utility based on Dash which is Python framework for building web applications. It is built on top of Flask, Plotly.js, React and React Js. Code is written in python.",
+            "link": "https://github.com/ntnnitinkr/projects/tree/master/BatchPerformance"
+        },
+        {
+            "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/healthPlanner/assets/Screenshots/Web_app_1.png",
+            "name": "Health Planner",
+            "description": "Health Planner is a web application. It is built on top of Angular8 and React. Code is written in HTML, Typescript and Python.",
+            "link": "https://github.com/ntnnitinkr/projects/tree/master/healthPlanner"
+        },
+        {
+            "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/serverLogs/Screenshots/Home.png",
+            "name": "WebLogic log-fetch Utility",
+            "description": "The WebLogic log fetch is the Utility based on Dash which is Python framework for building web applications. It is built on top of Flask, Plotly.js, React and React Js. Code is written in python.",
+            "link": "https://github.com/ntnnitinkr/projects/tree/master/serverLogs"
+        },
+        {
+            "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/outagesExperience/Screenshots/SS_1.png",
+            "name": "Outage Experience",
+            "description": "Outage Experience is the Utility based on Dash which is Python framework for building web applications. It is built on top of Flask, Plotly.js, React and React Js. Code is written in python.",
+            "link": "https://github.com/ntnnitinkr/projects/tree/master/outagesExperience"
+        },
+        {
+            "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/videoSamples/Screenshots/Hackathon_demo.png",
+            "name": "Video Samples",
+            "description": "Below are some video samples which are created by me. I have very good experience and knowledge in tools like Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, Adobe Illustrator and CorelDRAW.",
+            "link": "https://github.com/ntnnitinkr/projects/tree/master/videoSamples"
+        },
+        {
+            "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/graphicDesigns/M360_dashboard_1.png",
+            "name": "Graphic Design Samples",
+            "description": "Below are some graphic design samples which are created by me. I have very good experience and knowledge in tools like Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, Adobe Illustrator and CorelDRAW.",
+            "link": "https://github.com/ntnnitinkr/projects/tree/master/graphicDesigns"
         }
     ]
 }

@@ -46,7 +46,7 @@ const backgroundVariants = {
     opacity: 1,
     scale: 1,
     y: 0,
-    d: "M 27 139 L 407 139 C 407 139 434 139 434 112 L 434 27 C 434 27 434 0 461 0 L 1059 0 C 1059 0 1086 0 1086 27 L 1086 112 C 1086 112 1086 139 1113 139 L 1498 139 C 1498 139 1525 139 1525 166 L 1525 800 C 1525 800 1525 827 1498 827 L 27 827 C 27 827 0 827 0 800 L 0 166 C 0 166 0 139 27 139 Z",
+    d: "M 27 139 L 407 139 C 407 139 434 139 434 112 L 434 27 C 434 27 434 0 461 0 L 1059 0 C 1059 0 1086 0 1086 27 L 1086 112 C 1086 112 1086 139 1113 139 L 1498 139 C 1498 139 1525 139 1525 166 L 1525 1000 C 1525 1000 1525 1027 1498 1027 L 27 1027 C 27 1027 0 1027 0 1000 L 0 166 C 0 166 0 139 27 139 Z",
   },
 };
 
@@ -57,7 +57,7 @@ const SectionHeader = () => {
         <motion.svg
           className="experience-background"
           initial="start"
-          viewBox="0 0 1525 921"
+          viewBox="0 0 1525 1040"
           xmlns="http://www.w3.org/2000/svg"
           viewport={{ once: true, amount: 0.1 }}
           whileInView="end"
@@ -74,7 +74,7 @@ const SectionHeader = () => {
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.3}}
         >
           <motion.div
             className="gradient-hide-top"
@@ -90,8 +90,8 @@ const SectionHeader = () => {
 
           <Scrollbars
             autoHeight
-            autoHeightMin={680}
-            autoHeightMax={680}
+            autoHeightMin={865}
+            autoHeightMax={865}
             renderTrackVertical={(props) => (
               <div {...props} className="track-vertical" />
             )}

@@ -3,6 +3,9 @@ import { Scrollbars } from "react-custom-scrollbars-2";
 import Header from "./components/header";
 import AboutMe from "./components/aboutme";
 import Experience from "./components/experience";
+import Skills from "./components/skills";
+import Projects from "./components/projects";
+
 
 const debounce = function (fn, ms) {
   let timer;
@@ -47,6 +50,8 @@ const App = () => {
         <Header />
         <AboutMe />
         <Experience />
+        <Skills />
+        <Projects />
       </Scrollbars>
     </>
   );

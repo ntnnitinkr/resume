@@ -24,14 +24,14 @@
 
 .body-job-detail .job-title {
     position: absolute;
-    padding-left: 12rem;
+    padding-left: 13rem;
 }
 
 .body-job-detail .company-name {
     position: absolute;
-    padding-left: 12rem;
+    padding-left: 13rem;
     padding-top: 3rem;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .body-job-detail .job-description {
