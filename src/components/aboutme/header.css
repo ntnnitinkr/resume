@@ -1,5 +1,8 @@
 .container-aboutme{
+    background-color: white;
     padding: 0 15%;
+    position: relative;
+    z-index: 10;
 }
 
 .container-aboutme .section-title{

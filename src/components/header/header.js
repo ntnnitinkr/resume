@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./header.css";
 import data from "../../assets/data.json";
+import hero from "../../assets/hero_image_2.png";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 
@@ -23,7 +24,7 @@ const HeaderFrame = ({ width, height }) => {
       transition={{ ease: "anticipate", duration: 2 }}
     >
       <svg
-        class="header-frame"
+        className="header-frame"
         width="100%"
         height="100%"
         viewBox={`0 0 ${width} ${height}`}
@@ -46,13 +47,13 @@ const HeaderFrame = ({ width, height }) => {
 const HeaderCircle = ({ width, height }) => {
   return (
     <motion.div
-      class="header-circle-motion"
+      className="header-circle-motion"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ ease: "anticipate", delay: 0.8, duration: 1 }}
     >
       <svg
-        class="header-circle"
+        className="header-circle"
         width={width}
         height={height}
         viewBox={`0 0 ${width} ${height}`}
@@ -85,17 +86,17 @@ const PageHeader = () => {
   });
 
   return (
-    <div class="container-header">
+    <div id="home" className="container-header">
       <HeaderFrame width={dimensions.width} height={dimensions.height} />
-      <div class="heading">
+      <div className="heading">
         <motion.div
-          class="header-text-motion"
+          className="header-text-motion"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ ease: "anticipate", delay: 1.2, duration: 1 }}
         >
-          <div class="heading-title">{data.title}</div>
-          <div class="heading-subtitle">
+          <div className="heading-title">{data.title}</div>
+          <div className="heading-subtitle">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter

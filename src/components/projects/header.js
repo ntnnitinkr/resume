@@ -43,13 +43,13 @@ const cardVariants = {
 const ProjectList = (props) => {
   return (
     <>
-      <motion.div class="section-body" variants={cardVariants}>
-        <div class="image-container">
-          <img class="image" src={props.item.imageurl}></img>
+      <motion.div className="section-body" variants={cardVariants}>
+        <div className="image-container">
+          <img className="image" src={props.item.imageurl}></img>
         </div>
-        <div class="title">{props.item.name}</div>
-        <div class="description">{props.item.description}</div>
-        <a class="button" href={props.item.link} target="_blank">
+        <div className="title">{props.item.name}</div>
+        <div className="description">{props.item.description}</div>
+        <a className="button" href={props.item.link} target="_blank">
           More Detail
         </a>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -68,19 +68,19 @@ const ProjectList = (props) => {
 const SectionHeader = () => {
   return (
     <>
-      <div className="container-projects">
+      <div id="projects" className="container-projects">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.5 }}
         >
-          <motion.div class="section-title" variants={textVariants}>
+          <motion.div className="section-title" variants={textVariants}>
             Projects
           </motion.div>
         </motion.div>
 
         <motion.div
-          class="container-projects-body"
+          className="container-projects-body"
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.1 }}

@@ -1,0 +1,112 @@
+.container-footer {
+    position: sticky;
+    background-color: #004737;
+    padding: 0 15%;
+    bottom: 0;
+    z-index: 0;
+}
+
+.container-footer .left-section {
+    display: inline-block;
+    color: #fffbec;
+    padding: 70px 0;
+    width: 80%;
+}
+
+.container-footer .left-section .heading-contact{
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+.container-footer .left-section .social-list{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.container-footer .left-section .social-list .item{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.container-footer .left-section .social-list .item .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fffbec;
+    border-radius: 100%;
+    transition: transform .5s cubic-bezier(.19,1,.22,1);
+}
+
+.container-footer .left-section .social-list .item .icon{
+    position: relative;
+}
+
+.container-footer .left-section .social-list .item a:hover .bg{
+    transform: scale(1.1);
+}
+
+.container-footer .left-section .made-by-text{
+    display: inline-block;
+    padding-top: 70px;
+    font-size: 18px;
+}
+
+.container-footer .left-section .react-text{
+    display: inline-block;
+    padding-left: 5px;
+    font-size: 18px;
+    color: #56F09F;
+}
+
+.container-footer .left-section .copyright-text{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.container-footer .right-section {
+    display: inline-block;
+    padding: 70px 0;
+    width: 20%;
+}
+
+.container-footer .right-section .item{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.container-footer .right-section .item .menu-link {
+    font-size: 20px;
+    color: #fffbec;
+    text-decoration: none;
+    position: relative;
+}
+
+.container-footer .right-section .item .menu-link::before {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #fffbec;
+    box-sizing: border-box;
+    transition: transform .5s cubic-bezier(.19, 1, .22, 1);
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.container-footer .right-section .item .menu-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}

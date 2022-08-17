@@ -45,13 +45,13 @@ const cardVariants = {
 const SectionHeader = () => {
   return (
     <>
-      <div className="container-aboutme">
+      <div id="aboutme" className="container-aboutme">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.5 }}
         >
-          <motion.div class="section-title" variants={textVariants}>
+          <motion.div className="section-title" variants={textVariants}>
             About Me
           </motion.div>
         </motion.div>
@@ -61,47 +61,47 @@ const SectionHeader = () => {
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.1 }}
         >
-          <motion.div class="section-subtitle" variants={textVariants}>
-            <div class="section-subtitle-quote">
+          <motion.div className="section-subtitle" variants={textVariants}>
+            <div className="section-subtitle-quote">
               <span>Failure Is The Power That Gives </span>
-              <span class="light-green-text">Success</span>
+              <span className="light-green-text">Success</span>
             </div>
-            <div class="section-subtitle-description">
-              <span class="verticle-line"></span>
-              <span class="text">{data.aboutMe.description}</span>
+            <div className="section-subtitle-description">
+              <span className="verticle-line"></span>
+              <span className="text">{data.aboutMe.description}</span>
             </div>
           </motion.div>
         </motion.div>
       </div>
       <div className="container-aboutme">
-        <div class="section-experience">
+        <div className="section-experience">
           <motion.div
-            class="section-experience-box-left"
+            className="section-experience-box-left"
             variants={cardVariants}
             whileHover="hover"
             initial="offscreen"
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.8 }}
           >
-            <img class="section-experience-logo" width="60px" src={expLogo} />
-            <span class="section-experience-title">
+            <img className="section-experience-logo" width="60px" src={expLogo} />
+            <span className="section-experience-title">
               {data.aboutMe.yearOfExperience}
             </span>
-            <span class="section-experience-subtitle">Years of Experience</span>
+            <span className="section-experience-subtitle">Years of Experience</span>
           </motion.div>
           <motion.div
-            class="section-experience-box-right"
+            className="section-experience-box-right"
             variants={cardVariants}
             whileHover="hover"
             initial="offscreen"
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.8 }}
           >
-            <img class="section-experience-logo" width="90px" src={proLogo} />
-            <span class="section-experience-title">
+            <img className="section-experience-logo" width="90px" src={proLogo} />
+            <span className="section-experience-title">
               {data.aboutMe.projectsCompleted}
             </span>
-            <span class="section-experience-subtitle">Projects Completed</span>
+            <span className="section-experience-subtitle">Projects Completed</span>
           </motion.div>
         </div>
       </div>

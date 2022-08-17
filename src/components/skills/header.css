@@ -1,5 +1,8 @@
 .container-skills {
+    background-color: white;
     padding: 0 10%;
+    position: relative;
+    z-index: 10;
 }
 
 .container-skills .section-title {
@@ -60,4 +63,8 @@
     color: #004737;
     top: 66%;
     /*transform: translateY(-50%);*/
+}
+
+.container-skills .separator{
+    height: 150px;
 }

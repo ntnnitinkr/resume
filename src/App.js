@@ -5,6 +5,7 @@ import AboutMe from "./components/aboutme";
 import Experience from "./components/experience";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
+import Footer from "./components/footer";
 
 
 const debounce = function (fn, ms) {
@@ -52,6 +53,7 @@ const App = () => {
         <Experience />
         <Skills />
         <Projects />
+        <Footer />
       </Scrollbars>
     </>
   );

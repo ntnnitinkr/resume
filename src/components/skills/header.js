@@ -43,13 +43,13 @@ const cardVariants = {
 const SkillsList = (props) => {
   return (
     <>
-      <motion.div class="section-body" variants={cardVariants}>
-        <span class="container-skill-logo-bg"></span>
+      <motion.div className="section-body" variants={cardVariants}>
+        <span className="container-skill-logo-bg"></span>
         <img
-          class="logo"
+          className="logo"
           src={require(`../../assets/${props.item.logo}`)}
         ></img>
-        <span class="text">{props.item.text}</span>
+        <span className="text">{props.item.text}</span>
       </motion.div>
     </>
   );
@@ -58,19 +58,19 @@ const SkillsList = (props) => {
 const SectionHeader = () => {
   return (
     <>
-      <div className="container-skills">
+      <div id="skills" className="container-skills">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.5 }}
         >
-          <motion.div class="section-title" variants={textVariants}>
+          <motion.div className="section-title" variants={textVariants}>
             Skills
           </motion.div>
         </motion.div>
 
         <motion.div
-          class="container-skills-body"
+          className="container-skills-body"
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.1 }}
@@ -79,6 +79,7 @@ const SectionHeader = () => {
             <SkillsList item={item} key={i} />
           ))}
         </motion.div>
+        <div className="separator"></div>
       </div>
     </>
   );

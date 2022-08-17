@@ -53,7 +53,7 @@ const backgroundVariants = {
 const SectionHeader = () => {
   return (
     <>
-      <div className="container-experience">
+      <div id="experience" className="container-experience">
         <motion.svg
           className="experience-background"
           initial="start"
@@ -84,7 +84,7 @@ const SectionHeader = () => {
             className="gradient-hide-bottom"
             variants={gredientVariants}
           ></motion.div>
-          <motion.div class="section-title" variants={textVariants}>
+          <motion.div className="section-title" variants={textVariants}>
             Experience
           </motion.div>
 
