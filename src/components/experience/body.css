@@ -48,8 +48,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .horizontal-line~.horizontal-line {}
-
     .body-job-detail {
         min-height: 3rem;
     }

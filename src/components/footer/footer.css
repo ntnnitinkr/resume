@@ -13,18 +13,18 @@
     width: 80%;
 }
 
-.container-footer .left-section .heading-contact{
+.container-footer .left-section .heading-contact {
     font-size: 35px;
     padding: 20px 0;
 }
 
-.container-footer .left-section .social-list{
+.container-footer .left-section .social-list {
     display: block;
     margin: 0;
     padding: 0;
 }
 
-.container-footer .left-section .social-list .item{
+.container-footer .left-section .social-list .item {
     position: relative;
     display: inline-flex;
     align-items: center;
@@ -34,7 +34,7 @@
     margin-right: 15px;
 }
 
-.container-footer .left-section .social-list .item .bg{
+.container-footer .left-section .social-list .item .bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -43,31 +43,31 @@
     height: 100%;
     background-color: #fffbec;
     border-radius: 100%;
-    transition: transform .5s cubic-bezier(.19,1,.22,1);
+    transition: transform .5s cubic-bezier(.19, 1, .22, 1);
 }
 
-.container-footer .left-section .social-list .item .icon{
+.container-footer .left-section .social-list .item .icon {
     position: relative;
 }
 
-.container-footer .left-section .social-list .item a:hover .bg{
+.container-footer .left-section .social-list .item a:hover .bg {
     transform: scale(1.1);
 }
 
-.container-footer .left-section .made-by-text{
+.container-footer .left-section .made-by-text {
     display: inline-block;
     padding-top: 70px;
     font-size: 18px;
 }
 
-.container-footer .left-section .react-text{
+.container-footer .left-section .react-text {
     display: inline-block;
     padding-left: 5px;
     font-size: 18px;
     color: #56F09F;
 }
 
-.container-footer .left-section .copyright-text{
+.container-footer .left-section .copyright-text {
     padding-top: 10px;
     font-size: 12px;
 }
@@ -78,7 +78,7 @@
     width: 20%;
 }
 
-.container-footer .right-section .item{
+.container-footer .right-section .item {
     display: block;
     padding-bottom: 10px;
 }
@@ -109,4 +109,47 @@
 .container-footer .right-section .item .menu-link:hover::before {
     transform: scaleX(1);
     transform-origin: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-footer {
+        padding: 0 9%;
+        min-height: 35rem;
+    }
+
+    .container-footer .left-section {
+        width: 100%;
+        position: absolute;
+        padding: 17rem 0 0 0;
+    }
+
+    .container-footer .left-section .heading-contact {
+        font-size: 27px;
+    }
+
+    .container-footer .left-section .made-by-text {
+        padding-top: 60px;
+        font-size: 15px;
+    }
+
+    .container-footer .left-section .react-text {
+        font-size: 15px;
+    }
+
+    .container-footer .left-section .copyright-text {
+        font-size: 10px;
+    }
+
+    .container-footer .right-section {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .container-footer .right-section .list {
+        padding: 0;
+    }
+
+    .container-footer .right-section .item .menu-link {
+        font-size: 17px;
+    }
 }

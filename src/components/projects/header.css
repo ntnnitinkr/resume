@@ -69,7 +69,7 @@
     padding: 40px 100px;
     font-size: 22px;
     font-weight: 500;
-    color: rgba(0,71,55,.6);
+    color: rgba(0, 71, 55, .6);
 }
 
 .container-projects .container-projects-body .section-body .button {
@@ -93,4 +93,40 @@
 
 .container-projects .container-projects-body .section-body .button:hover {
     scale: 1.1;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-projects .section-title {
+        font-size: 45px;
+    }
+
+    .container-projects .container-projects-body .section-body {
+        width: 100%;
+        margin: 20px 0;
+        padding-bottom: 30px;
+        height: auto;
+    }
+
+    .container-projects .container-projects-body .section-body .image-container {
+        height: 13rem;
+    }
+
+    .container-projects .container-projects-body .section-body .image {
+        height: 13rem;
+    }
+
+    .container-projects .container-projects-body .section-body .title {
+        padding: 20px 45px 0 45px;
+        font-size: 25px;
+    }
+
+    .container-projects .container-projects-body .section-body .description {
+        padding: 30px 30px;
+        font-size: 15px;
+    }
+
+    .container-projects .container-projects-body .section-body .button {
+        width: 60%;
+        font-size: 13px;
+    }
 }

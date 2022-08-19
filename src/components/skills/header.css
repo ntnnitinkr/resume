@@ -65,6 +65,26 @@
     /*transform: translateY(-50%);*/
 }
 
-.container-skills .separator{
+.container-skills .separator {
     height: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-skills .section-title {
+        font-size: 45px;
+    }
+
+    .container-skills .container-skills-body .section-body {
+        min-width: 40%;
+        margin: 10px 10px;
+    }
+
+    .container-skills .container-skills-body .section-body .logo {
+        height: 40px;
+    }
+
+    .container-skills .container-skills-body .section-body .text {
+        font-size: 16px;
+        top: 60%;
+    }
 }
