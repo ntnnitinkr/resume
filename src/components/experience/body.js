@@ -28,7 +28,7 @@ const ContentList = (props) => {
         jobDetailClass === jobDetailClass.parentNode.childNodes[4]
       ) {
         if (window.innerWidth <= 768) {
-          setState({ ...state, isOpen: true, height: "41rem" });
+          setState({ ...state, isOpen: true, height: "42rem" });
         } else {
           setState({ ...state, isOpen: true, height: "29rem" });
         }
@@ -36,7 +36,7 @@ const ContentList = (props) => {
         jobDetailClass === jobDetailClass.parentNode.childNodes[10]
       ) {
         if (window.innerWidth <= 768) {
-          setState({ ...state, isOpen: true, height: "25rem" });
+          setState({ ...state, isOpen: true, height: "26rem" });
         } else {
           setState({ ...state, isOpen: true, height: "17rem" });
         }
