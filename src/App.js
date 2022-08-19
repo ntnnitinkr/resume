@@ -7,7 +7,6 @@ import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Footer from "./components/footer";
 
-
 const debounce = function (fn, ms) {
   let timer;
   return (_) => {
@@ -41,6 +40,20 @@ const App = () => {
   return (
     <>
       <Scrollbars
+        style={{ scrollBehavior: "smooth" }}
+        renderTrackVertical={({ style, ...props }) => (
+          <div
+            {...props}
+            style={{
+              ...style,
+              right: 2,
+              bottom: 2,
+              top: 2,
+              borderRadius: 3,
+              zIndex: 100,
+            }}
+          />
+        )}
         autoHeight
         autoHeightMin={dimensions.height}
         autoHeightMax={dimensions.height}

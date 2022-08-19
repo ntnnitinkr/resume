@@ -51,6 +51,11 @@ const backgroundVariants = {
 };
 
 const SectionHeader = () => {
+  let scrollHeight = 865;
+  if (window.innerWidth <= 768) {
+    scrollHeight = 555;
+  }
+
   return (
     <>
       <div id="experience" className="container-experience">
@@ -90,8 +95,8 @@ const SectionHeader = () => {
 
           <Scrollbars
             autoHeight
-            autoHeightMin={865}
-            autoHeightMax={865}
+            autoHeightMin={scrollHeight}
+            autoHeightMax={scrollHeight}
             renderTrackVertical={(props) => (
               <div {...props} className="track-vertical" />
             )}

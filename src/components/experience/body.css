@@ -46,3 +46,37 @@
     padding: 5px 0;
     display: list-item;
 }
+
+@media only screen and (max-width: 768px) {
+    .horizontal-line~.horizontal-line {}
+
+    .body-job-detail {
+        min-height: 3.5rem;
+    }
+
+    .body-job-detail .year-range {
+        font-size: 10px;
+    }
+
+    .body-job-detail .job-title {
+        padding-left: 8rem;
+        font-size: 16px;
+    }
+
+    .body-job-detail .company-name {
+        padding-left: 8rem;
+        padding-top: 2rem;
+        font-size: 12px;
+    }
+
+    .body-job-detail .job-description {
+        padding-left: 10px;
+        width: 94%;
+        transform: none !important;
+        padding-top: 60px;
+    }
+
+    .body-job-detail .job-description .job-point {
+        font-size: 12px;
+    }
+}

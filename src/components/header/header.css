@@ -31,3 +31,6 @@
     padding-top: 15px;
     font-family: monospace;
 }
+
+@media only screen and (max-width: 768px) {
+}

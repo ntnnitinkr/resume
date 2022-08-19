@@ -1,11 +1,11 @@
-.container-aboutme{
+.container-aboutme {
     background-color: white;
     padding: 0 15%;
     position: relative;
     z-index: 10;
 }
 
-.container-aboutme .section-title{
+.container-aboutme .section-title {
     font-size: 80px;
     color: #004737;
     margin: 0 auto;
@@ -13,12 +13,12 @@
     text-align: center;
 }
 
-.container-aboutme .section-subtitle{
+.container-aboutme .section-subtitle {
     display: flex;
     padding-bottom: 100px;
 }
 
-.container-aboutme .section-subtitle .section-subtitle-quote{
+.container-aboutme .section-subtitle .section-subtitle-quote {
     width: 40%;
     padding-right: 33%;
     padding-top: 10px;
@@ -28,38 +28,38 @@
     font-weight: 500;
 }
 
-.container-aboutme .section-subtitle .section-subtitle-description{
+.container-aboutme .section-subtitle .section-subtitle-description {
     width: 60%;
     float: right;
     display: flex;
 }
 
-.container-aboutme .section-subtitle .section-subtitle-description .text{
+.container-aboutme .section-subtitle .section-subtitle-description .text {
     padding: 10px 0 10px 30px;
-    color: rgba(0,71,55,.6);
+    color: rgba(0, 71, 55, .6);
     font-size: 20px;
     font-weight: 400;
     display: flex;
 }
 
-.verticle-line{
+.verticle-line {
     height: 100%;
     width: 12px;
     background-color: #004737;
     border-radius: 99px;
 }
 
-.light-green-text{
+.light-green-text {
     color: #56F09F;
 }
 
-.container-aboutme .section-experience{
+.container-aboutme .section-experience {
     display: flex;
     padding-bottom: 100px;
     color: #004737;
 }
 
-.container-aboutme .section-experience .section-experience-box-left{
+.container-aboutme .section-experience .section-experience-box-left {
     float: left;
     width: 30%;
     margin-right: 30%;
@@ -67,28 +67,93 @@
     border-radius: 20px;
 }
 
-.container-aboutme .section-experience .section-experience-box-right{
+.container-aboutme .section-experience .section-experience-box-right {
     float: right;
     width: 30%;
     background-color: #FAF2D5;
     border-radius: 20px;
 }
 
-.section-experience-title{
+.section-experience-title {
     padding: 30px 0 0 60px;
     display: block;
     font-size: 80px;
 }
 
-.section-experience-subtitle{
+.section-experience-subtitle {
     padding: 10px 0 30px 60px;
     display: block;
     font-size: 20px;
 }
 
-.section-experience-logo{
+.section-experience-logo {
     position: relative;
     top: 45px;
     right: 50px;
     float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-aboutme .section-title {
+        font-size: 32px;
+        padding: 60px 0;
+    }
+
+    .container-aboutme .section-subtitle {
+        display: block;
+        padding-bottom: 60px;
+    }
+
+    .container-aboutme .section-subtitle .section-subtitle-quote {
+        font-size: 25px;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .container-aboutme .section-subtitle .section-subtitle-description {
+        width: 100%;
+        float: none;
+        padding-top: 50px;
+    }
+
+    .container-aboutme .section-subtitle .section-subtitle-description .text {
+        font-size: 17px;
+        display: flex;
+    }
+
+    .verticle-line {
+        height: auto;
+    }
+
+    .container-aboutme .section-experience {
+        display: block;
+    }
+
+    .container-aboutme .section-experience .section-experience-box-left {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .container-aboutme .section-experience .section-experience-box-right {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .section-experience-title {
+        padding: 20px 0 0 30px;
+        font-size: 40px;
+    }
+
+    .section-experience-subtitle {
+        padding: 10px 0 30px 30px;
+        font-size: 15px;
+    }
+
+    .section-experience-logo {
+        width: 40px;
+        top: 30px;
+        right: 30px;
+    }
 }
