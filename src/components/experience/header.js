@@ -53,7 +53,7 @@ const backgroundVariants = {
 const SectionHeader = () => {
   let scrollHeight = 865;
   if (window.innerWidth <= 768) {
-    scrollHeight = 543;
+    scrollHeight = 530;
   }
 
   return (
