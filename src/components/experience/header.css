@@ -55,8 +55,18 @@
 }
 
 .track-vertical {
-    display: none;
     width: 0px;
+    background: transparent;
+}
+
+.thumb-vertical {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
 @media only screen and (max-width: 768px) {

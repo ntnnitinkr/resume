@@ -100,6 +100,9 @@ const SectionHeader = () => {
             renderTrackVertical={(props) => (
               <div {...props} className="track-vertical" />
             )}
+            renderThumbVertical={(props) => (
+              <div {...props} className="thumb-vertical" />
+            )}
           >
             <motion.div
               id="body-experience"

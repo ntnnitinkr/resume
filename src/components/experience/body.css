@@ -51,7 +51,7 @@
     .horizontal-line~.horizontal-line {}
 
     .body-job-detail {
-        min-height: 3.5rem;
+        min-height: 3rem;
     }
 
     .body-job-detail .year-range {

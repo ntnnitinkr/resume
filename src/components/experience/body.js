@@ -12,6 +12,8 @@ const DetailPoints = (props) => {
 };
 
 const ContentList = (props) => {
+  const screenWidth = window.innerWidth;
+
   const [state, setState] = useState({
     isOpen: false,
     height: "4.5rem",
@@ -27,15 +29,13 @@ const ContentList = (props) => {
         jobDetailClass === jobDetailClass.parentNode.childNodes[2] ||
         jobDetailClass === jobDetailClass.parentNode.childNodes[4]
       ) {
-        if (window.innerWidth <= 768) {
+        if (screenWidth <= 768) {
           setState({ ...state, isOpen: true, height: "43rem" });
         } else {
           setState({ ...state, isOpen: true, height: "29rem" });
         }
-      } else if (
-        jobDetailClass === jobDetailClass.parentNode.childNodes[10]
-      ) {
-        if (window.innerWidth <= 768) {
+      } else if (jobDetailClass === jobDetailClass.parentNode.childNodes[10]) {
+        if (screenWidth <= 768) {
           setState({ ...state, isOpen: true, height: "25rem" });
         } else {
           setState({ ...state, isOpen: true, height: "17rem" });
@@ -44,13 +44,13 @@ const ContentList = (props) => {
         jobDetailClass === jobDetailClass.parentNode.childNodes[12] ||
         jobDetailClass === jobDetailClass.parentNode.childNodes[14]
       ) {
-        if (window.innerWidth <= 768) {
+        if (screenWidth <= 768) {
           setState({ ...state, isOpen: true, height: "20rem" });
         } else {
           setState({ ...state, isOpen: true, height: "13rem" });
         }
       } else {
-        if (window.innerWidth <= 768) {
+        if (screenWidth <= 768) {
           setState({ ...state, isOpen: true, height: "30rem" });
         } else {
           setState({ ...state, isOpen: true, height: "17rem" });
