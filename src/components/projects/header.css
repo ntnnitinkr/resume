@@ -84,9 +84,9 @@
     border-radius: 50px;
     background-color: #004737;
     color: #56f09f;
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 }
