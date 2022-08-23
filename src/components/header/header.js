@@ -60,7 +60,11 @@ const HeaderCircle = ({ width, height }) => {
         fill="white"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <circle cx="75%" cy="60%" r={height / 3} fill="#56F09F" />
+        {window.innerWidth > 768 ? (
+          <circle cx="75%" cy="60%" r={height / 3} fill="#56F09F" />
+        ) : (
+          <circle cx="50%" cy="78%" r={height / 6} fill="#56F09F" />
+        )}
       </svg>
     </motion.div>
   );
