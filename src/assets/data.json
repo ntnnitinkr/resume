@@ -184,49 +184,49 @@
     "projects": [{
             "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/sentimentAnalysis/Screenshots/Artboard%204.png",
             "name": "Sentiment Analysis",
-            "description": "Sentiment Analysis is a proposed design based on Self Machine Learning Model. This web application isn't built yet.",
+            "description": "Sentiment Analysis is a proposed design based on Self Machine Learning Model. It provides the customer experience based on their provided comments.",
             "link": "https://github.com/ntnnitinkr/projects/tree/master/sentimentAnalysis"
         },
         {
             "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/market360/Screenshots/M360_4.png",
             "name": "Market 360",
-            "description": "Market 360 is an Executive Dashboard and User Interfaces to monitor / track Market Transactions.",
+            "description": "Market 360 is an Executive Dashboard and User Interfaces to monitor/track Market Transactions. It provides live health check report of any application at one place and simply by one click.",
             "link": "https://github.com/ntnnitinkr/projects/tree/master/market360"
         },
         {
             "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/BatchPerformance/images/Summary.png",
             "name": "Batch Performance",
-            "description": "Batch Performance is the Utility based on Dash which is Python framework for building web applications. It is built on top of Flask, Plotly.js, React and React Js. Code is written in python.",
+            "description": "Batch Performance is the Utility based on Dash which is Python framework for building web applications. It diagnose application performance issues and predict problems before they become service impacting.",
             "link": "https://github.com/ntnnitinkr/projects/tree/master/BatchPerformance"
         },
         {
             "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/healthPlanner/assets/Screenshots/Web_app_1.png",
             "name": "Health Planner",
-            "description": "Health Planner is a web application. It is built on top of Angular8 and React. Code is written in HTML, Typescript and Python.",
+            "description": "Health Planner is a web application based on Angular8. It can manage all of hospital patients data and can diagnose medical report using Machine Learning.",
             "link": "https://github.com/ntnnitinkr/projects/tree/master/healthPlanner"
         },
         {
             "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/serverLogs/Screenshots/Home.png",
-            "name": "WebLogic log-fetch Utility",
-            "description": "The WebLogic log fetch is the Utility based on Dash which is Python framework for building web applications. It is built on top of Flask, Plotly.js, React and React Js. Code is written in python.",
+            "name": "WebLogic Log-Fetch Utility",
+            "description": "The WebLogic log fetch is the Utility based on Dash which is Python framework for building web applications. It fetches the health status & mine logs for errors in each server in WebLogic Domain using REST APIs.",
             "link": "https://github.com/ntnnitinkr/projects/tree/master/serverLogs"
         },
         {
             "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/outagesExperience/Screenshots/SS_1.png",
             "name": "Outage Experience",
-            "description": "Outage Experience is the Utility based on Dash which is Python framework for building web applications. It is built on top of Flask, Plotly.js, React and React Js. Code is written in python.",
+            "description": "Outage Experience is the Utility based on Dash which is Python framework for building web applications. It provides customer experience in terms of outages which can be seen in map.",
             "link": "https://github.com/ntnnitinkr/projects/tree/master/outagesExperience"
         },
         {
             "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/videoSamples/Screenshots/Hackathon_demo.png",
             "name": "Video Samples",
-            "description": "Below are some video samples which are created by me. I have very good experience and knowledge in tools like Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, Adobe Illustrator and CorelDRAW.",
+            "description": "Some video samples which are created by me. I have very good experience and knowledge in tools like Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, Adobe Illustrator and CorelDRAW.",
             "link": "https://github.com/ntnnitinkr/projects/tree/master/videoSamples"
         },
         {
             "imageurl": "https://raw.githubusercontent.com/ntnnitinkr/projects/master/graphicDesigns/M360_dashboard_1.png",
             "name": "Graphic Design Samples",
-            "description": "Below are some graphic design samples which are created by me. I have very good experience and knowledge in tools like Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, Adobe Illustrator and CorelDRAW.",
+            "description": "Some graphic design samples which are created by me. I have very good experience and knowledge in tools like Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, Adobe Illustrator and CorelDRAW.",
             "link": "https://github.com/ntnnitinkr/projects/tree/master/graphicDesigns"
         }
     ]

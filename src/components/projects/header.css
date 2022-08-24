@@ -47,7 +47,7 @@
     width: 100%;
     height: 25rem;
     object-fit: cover;
-    transition: all 0.8s ease-in-out;
+    transition: all 0.8s cubic-bezier(.77,0,.18,1);
 }
 
 .container-projects .container-projects-body .section-body:hover .image {
