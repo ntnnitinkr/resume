@@ -25,6 +25,7 @@
     min-width: 15%;
     margin: 20px 20px;
     height: 8rem;
+    z-index: 30;
 }
 
 .container-skills .container-skills-body .section-body .container-skill-logo-bg {

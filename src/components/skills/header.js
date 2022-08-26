@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./header.css";
 import { motion } from "framer-motion";
 import data from "../../assets/data.json";
+import Scene from "./Scene";
 
 const textVariants = {
   offscreen: {
@@ -80,6 +81,7 @@ const SectionHeader = () => {
           ))}
         </motion.div>
         <div className="separator"></div>
+        <Scene />
       </div>
     </>
   );
