@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./footer.css";
-import { motion } from "framer-motion";
-import data from "../../assets/data.json";
-import expLogo from "../../assets/experience.png";
-import proLogo from "../../assets/projects.png";
 
 const textVariants = {
   offscreen: {
@@ -50,7 +46,11 @@ const SectionHeader = () => {
           <div className="heading-contact">Contact Me</div>
           <ul className="social-list">
             <li className="item">
-              <a href="#" target="_blank" rel="external nofollow noopener">
+              <a
+                href="https://www.linkedin.com/in/nitin-kumar-10507215b"
+                target="_blank"
+                rel="external nofollow noopener"
+              >
                 <span className="bg"></span>
                 <svg
                   width="21"
@@ -85,7 +85,11 @@ const SectionHeader = () => {
               </a>
             </li>
             <li className="item">
-              <a href="#" target="_blank" rel="external nofollow noopener">
+              <a
+                href="https://www.facebook.com/ntn.nitinkr"
+                target="_blank"
+                rel="external nofollow noopener"
+              >
                 <span className="bg"></span>
                 <svg
                   width="21"
@@ -101,7 +105,11 @@ const SectionHeader = () => {
               </a>
             </li>
             <li className="item">
-              <a href="#" target="_blank" rel="external nofollow noopener">
+              <a
+                href="https://www.instagram.com/invites/contact/?i=1vjhsck4dccnq&utm_content=qpd6ek"
+                target="_blank"
+                rel="external nofollow noopener"
+              >
                 <span className="bg"></span>
                 <svg
                   width="21"

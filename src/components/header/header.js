@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./header.css";
 import data from "../../assets/data.json";
-import hero from "../../assets/hero_image_2.png";
+import hero from "../../assets/selfie.png";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 
@@ -46,27 +46,30 @@ const HeaderFrame = ({ width, height }) => {
 
 const HeaderCircle = ({ width, height }) => {
   return (
-    <motion.div
-      className="header-circle-motion"
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ ease: "anticipate", delay: 0.8, duration: 1 }}
-    >
-      <svg
-        className="header-circle"
-        width={width}
-        height={height}
-        viewBox={`0 0 ${width} ${height}`}
-        fill="white"
-        xmlns="http://www.w3.org/2000/svg"
+    <>
+      <motion.div
+        className="header-circle-motion"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ ease: "anticipate", delay: 0.8, duration: 1 }}
       >
-        {window.innerWidth > 768 ? (
-          <circle cx="75%" cy="60%" r={height / 3} fill="#56F09F" />
-        ) : (
-          <circle cx="50%" cy="78%" r={height / 6} fill="#56F09F" />
-        )}
-      </svg>
-    </motion.div>
+        <svg
+          className="header-circle"
+          width={width}
+          height={height}
+          viewBox={`0 0 ${width} ${height}`}
+          fill="white"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          {window.innerWidth > 768 ? (
+            <circle cx="75%" cy="60%" r={height / 3} fill="#56F09F" />
+          ) : (
+            <circle cx="50%" cy="78%" r={height / 6} fill="#56F09F" />
+          )}
+        </svg>
+        <img className="header-hero-image" height={height - 80} src={hero} />
+      </motion.div>
+    </>
   );
 };
 
