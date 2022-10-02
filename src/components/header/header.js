@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./header.css";
 import data from "../../assets/data.json";
 import hero from "../../assets/selfie.png";
+import resume from "../../assets/Resume_NitinKumar_IBM.pdf";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 
@@ -117,6 +118,16 @@ const PageHeader = () => {
         </motion.div>
       </div>
       <HeaderCircle width={dimensions.width} height={dimensions.height} />
+      <motion.div
+        className="header-button-motion"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ ease: "anticipate", delay: 3, duration: 1 }}
+      >
+        <a className="button" href={resume} target="_blank">
+          Download CV
+        </a>
+      </motion.div>
     </div>
   );
 };

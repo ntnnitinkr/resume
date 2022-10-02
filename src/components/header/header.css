@@ -38,6 +38,37 @@
     font-family: monospace;
 }
 
+.container-header .header-button-motion{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+}
+
+.container-header .header-button-motion .button {
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0rem;
+    border-radius: 50px;
+    background-color: #56f09f;
+    color: #004737;
+    right: 60px;
+    top: 60px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.container-header .header-button-motion .button:hover {
+    scale: 1.1;
+}
+
 @media only screen and (max-width: 768px) {
     .container-header .heading{
         width: 60%;
@@ -47,5 +78,12 @@
     .container-header .header-circle-motion .header-hero-image{
         right: 10%;
         height: 50%;
+    }
+
+    .container-header .header-button-motion .button {
+        top: 40px;
+        right: 40px;
+        padding: 7px 15px;
+        font-size: 12px;
     }
 }
