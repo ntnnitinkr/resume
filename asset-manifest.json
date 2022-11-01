@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.fe3eae58.css",
-    "main.js": "/resume/static/js/main.b7ae9934.js",
+    "main.js": "/resume/static/js/main.3bc306af.js",
     "static/media/selfie.png": "/resume/static/media/selfie.37244a348afaeceb3e76.png",
     "static/media/hero_image_2.png": "/resume/static/media/hero_image_2.e90feeb345c2dd6c74bb.png",
-    "static/media/Resume_NitinKumar_IBM.pdf": "/resume/static/media/Resume_NitinKumar_IBM.f813d80eff1b1319bf9e.pdf",
+    "static/media/Resume_NitinKumar_IBM.pdf": "/resume/static/media/Resume_NitinKumar_IBM.6620870597f526fe3d3c.pdf",
     "static/media/apache_spark.png": "/resume/static/media/apache_spark.1db23544e2f423b2a2d3.png",
     "static/media/jupyter_notebook.png": "/resume/static/media/jupyter_notebook.d9b0c631643f882f6737.png",
     "static/media/java.png": "/resume/static/media/java.1e6d2e55988bbe2d46e4.png",
@@ -26,10 +26,10 @@
     "static/media/logo.svg": "/resume/static/media/logo.5fa22f73b03c78bf69caf9dbcc6173ef.svg",
     "index.html": "/resume/index.html",
     "main.fe3eae58.css.map": "/resume/static/css/main.fe3eae58.css.map",
-    "main.b7ae9934.js.map": "/resume/static/js/main.b7ae9934.js.map"
+    "main.3bc306af.js.map": "/resume/static/js/main.3bc306af.js.map"
   },
   "entrypoints": [
     "static/css/main.fe3eae58.css",
-    "static/js/main.b7ae9934.js"
+    "static/js/main.3bc306af.js"
   ]
 }
