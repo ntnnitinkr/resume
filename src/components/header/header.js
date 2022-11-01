@@ -52,7 +52,7 @@ const HeaderCircle = ({ width, height }) => {
         className="header-circle-motion"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ ease: "anticipate", delay: 0.8, duration: 1 }}
+        transition={{ ease: "anticipate", delay: 1.2, duration: 1 }}
       >
         <svg
           className="header-circle"
@@ -68,7 +68,12 @@ const HeaderCircle = ({ width, height }) => {
             <circle cx="50%" cy="78%" r={height / 6} fill="#56F09F" />
           )}
         </svg>
-        <img className="header-hero-image" height={height - 80} src={hero} />
+        <img
+          className="header-hero-image"
+          height={height - 80}
+          src={hero}
+          alt=""
+        />
       </motion.div>
     </>
   );
@@ -101,7 +106,7 @@ const PageHeader = () => {
           className="header-text-motion"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ ease: "anticipate", delay: 1.2, duration: 1 }}
+          transition={{ ease: "anticipate", delay: 1.6, duration: 1 }}
         >
           <div className="heading-title">{data.title}</div>
           <div className="heading-subtitle">
@@ -124,7 +129,7 @@ const PageHeader = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ ease: "anticipate", delay: 3, duration: 1 }}
       >
-        <a className="button" href={resume} target="_blank">
+        <a className="button" href={resume} target="_blank" rel="noreferrer">
           Download CV
         </a>
       </motion.div>

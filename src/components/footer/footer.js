@@ -1,42 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./footer.css";
-
-const textVariants = {
-  offscreen: {
-    opacity: 0,
-    y: 30,
-  },
-  onscreen: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      ease: "anticipate",
-      duration: 1,
-    },
-  },
-};
-
-const cardVariants = {
-  offscreen: {
-    opacity: 0,
-    scale: 0.8,
-  },
-  onscreen: {
-    opacity: 1,
-    scale: 1,
-    transition: {
-      ease: "anticipate",
-      duration: 1,
-    },
-  },
-  hover: {
-    scale: 1.1,
-    transition: {
-      type: "spring",
-      duration: 0.5,
-    },
-  },
-};
 
 const SectionHeader = () => {
   return (
@@ -49,7 +12,7 @@ const SectionHeader = () => {
               <a
                 href="https://www.linkedin.com/in/nitin-kumar-10507215b"
                 target="_blank"
-                rel="external nofollow noopener"
+                rel="external nofollow noreferrer"
               >
                 <span className="bg"></span>
                 <svg
@@ -67,8 +30,8 @@ const SectionHeader = () => {
             </li>
             <li className="item">
               <a
-                href="mailto:ntn.nitinkr@gmail.com"
-                rel="external nofollow noopener"
+                href="mailto:ntn.nitinkr@outlook.com"
+                rel="external nofollow noreferrer"
               >
                 <span className="bg"></span>
                 <svg
@@ -88,7 +51,7 @@ const SectionHeader = () => {
               <a
                 href="https://www.facebook.com/ntn.nitinkr"
                 target="_blank"
-                rel="external nofollow noopener"
+                rel="external nofollow noreferrer"
               >
                 <span className="bg"></span>
                 <svg
@@ -108,7 +71,7 @@ const SectionHeader = () => {
               <a
                 href="https://www.instagram.com/invites/contact/?i=1vjhsck4dccnq&utm_content=qpd6ek"
                 target="_blank"
-                rel="external nofollow noopener"
+                rel="external nofollow noreferrer"
               >
                 <span className="bg"></span>
                 <svg
@@ -163,6 +126,7 @@ const SectionHeader = () => {
                 className="menu-link"
                 target="_blank"
                 href="https://github.com/ntnnitinkr"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -172,6 +136,7 @@ const SectionHeader = () => {
                 className="menu-link"
                 target="_blank"
                 href="https://github.com/ntnnitinkr/courses-certifications"
+                rel="noreferrer"
               >
                 Certifications
               </a>
