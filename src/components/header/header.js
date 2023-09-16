@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./header.css";
 import data from "../../assets/data.json";
 import hero from "../../assets/selfie.png";
-import resume from "../../assets/Resume_NitinKumar_IBM.pdf";
+import resume from "../../assets/Resume_NitinKumar.pdf";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 

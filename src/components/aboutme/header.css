@@ -93,6 +93,32 @@
     float: right;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1624px) {
+    .container-aboutme .section-title {
+        font-size: 60px;
+        padding: 60px 0;
+    }
+
+    .container-aboutme .section-subtitle .section-subtitle-quote {
+        font-size: 25px;
+        padding-right: 25%;
+    }
+
+    .container-aboutme .section-subtitle .section-subtitle-description .text {
+        font-size: 17px;
+        display: flex;
+    }
+
+    .container-aboutme .section-experience .section-experience-box-left {
+        margin-right: 10%;
+        width: 50%;
+    }
+
+    .container-aboutme .section-experience .section-experience-box-right {
+        width: 50%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .container-aboutme .section-title {
         font-size: 45px;

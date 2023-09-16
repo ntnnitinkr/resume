@@ -59,6 +59,52 @@
     background: transparent;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1624px) {
+    .container-experience {
+        overflow: hidden;
+    }
+
+    .container-experience .experience-background {
+        left: 0;
+        background-color: #56F09F;
+        height: 700px;
+        width: 100%;
+    }
+
+    .container-experience .section-title {
+        font-size: 60px;
+        padding: 50px 0;
+    }
+
+    .container-experience .gradient-hide-top {
+        margin-top: 110px;
+        margin-left: 0;
+        width: 80%;
+        height: 7rem;
+    }
+
+    .container-experience .gradient-hide-bottom {
+        margin-top: 587px;
+        margin-left: 0;
+        width: 80%;
+        height: 7rem;
+    }
+
+    .body-experience {
+        width: 100% !important;
+    }
+
+    .body-experience .empty-gap {
+        height: 4rem;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+        width: 0px;
+        background: transparent;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .container-experience {
         overflow: hidden;

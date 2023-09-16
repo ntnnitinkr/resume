@@ -3,30 +3,51 @@
     "jobTitle": "Full Stack Developer",
     "aboutMe": {
         "description": "Work for organisation which provides me the opportunity to improve my skills and knowledge to grow along with fulfilment of organisational goals.",
-        "yearOfExperience": "4+",
+        "yearOfExperience": "5+",
         "projectsCompleted": "10+"
     },
     "experience": [{
             "id": 1,
-            "yearRange": "Sep-2021 to Present",
-            "title": "Technical Lead",
-            "company": "IBM | Dallas, TX, US",
-            "detail": ["Energy Efficiency Contractor Portal (EEPM) project - Leading team of 5 and implementing features like login functionality, populate events in calendar, incentive calculator, etc.",
-                "Diversity, Equity & Inclusion (DEI) project - Led team of 6 and implemented features like login integration with SharePoint intranet site, chat button, search bar, etc. This project was selected for 2022 Innovation Reward",
-                "Oncor.com project - Led team of 15 and delivered it seamlessly with over 65 custom web pages",
-                "Built and automated the Akamai Cache purge process directly from Adobe Experience Manager (AEM)",
-                "Created and implemented an application on RedHat OpenShift to integrate AEM logs with Log Logic system",
-                "Doing role of Admin in AEM. In addition, automated deployment from Bitbucket source code to AEM using Jenkins and CI/CD pipeline",
-                "Created training materials and held training sessions for Functional Partners",
-                "Planning and doing go-Live deployments for projects",
-                "Leading an Agile Scrum team in designing, implementing, and releasing several projects, with code reviews and high-test coverage",
-                "Working closely with Functional Partners and Project Manager to triage tickets so other developers could focus solely on coding",
-                "Received lot of appreciations directly from client on every back-to-back success of projects",
-                "Came onsite and joined struggling project to get that back on track and delivered it on time"
+            "yearRange": "Jan-2023 to Present",
+            "title": "Full Stack Engineer",
+            "company": "Blue Acorn iCi | Dallas, TX, US",
+            "detail": ["Served as a part of a development team that provides new services, enhancements, features, etc. for client website with high quality code",
+                "Closely collaborated with the client to provide AEM solutions",
+                "Developed modals, servlets, utils, filters etc in AEM",
+                "Did DevOps and Admin role of AEM including PRs reviews",
+                "Played a key role in requirements definitions, risk assessment, and improving best practices",
+                "Proposed and implemented solution to prevent DDoS attack",
+                "Collaborated with Magento (Adobe Commerce) team on integeration of AEM components with Magento commerce solution",
+                "Helped team in other projects like React, Angular",
+                "Implemented New Relic Log Monitoring service to track errors on client site",
+                "Documented comprehensive steps on confluence like local development setup, git strategy, PR rules, etc",
+                "Proactively worked on problems and came up with long term solution",
+                "Worked to ensure client site was accessible to all users and in compliance with ADA regulations",
+                "Coach and mentor junior developers and configurators, own responsibility for ongoing technical development of developers on AEM projects",
+                "Developed and maintained effective working relationships with team members"
             ]
         },
         {
             "id": 2,
+            "yearRange": "Sep-2021 to Jan-2023",
+            "title": "Technical Lead",
+            "company": "IBM | Dallas, TX, US",
+            "detail": ["Energy Efficiency Contractor Portal (EEPM) project - Led team of 5 and implementing features like login functionality, populate events in calendar, incentive calculator, etc.",
+                "Diversity, Equity & Inclusion (DEI) project - Led team of 6 and implemented features like login integration with SharePoint intranet site, chat button, search bar, etc. This project was selected for 2022 Innovation Reward",
+                "Oncor.com project - Led team of 15 and delivered it seamlessly with over 65 custom web pages",
+                "Built and automated the Akamai Cache purge process directly from Adobe Experience Manager (AEM)",
+                "Created and implemented an application on RedHat OpenShift to integrate AEM logs with Log Logic system",
+                "Did role of Admin in AEM. In addition, automated deployment from Bitbucket source code to AEM using Jenkins and CI/CD pipeline",
+                "Created training materials and held training sessions for Functional Partners",
+                "Planned and did go-Live deployments for projects",
+                "Led an Agile Scrum team in designing, implementing, and releasing several projects, with code reviews and high-test coverage",
+                "Worked closely with Functional Partners and Project Manager to triage tickets so other developers could focus solely on coding",
+                "Received lot of appreciations from client on every back-to-back success of projects",
+                "Came onsite and joined struggling project to get that back on track and delivered it on time"
+            ]
+        },
+        {
+            "id": 3,
             "yearRange": "Dec-2020 to Aug-2021",
             "title": "Sr Web Developer",
             "company": "IBM | Pune, MH, IN",
@@ -45,7 +66,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "yearRange": "Oct-2019 to Nov-2020",
             "title": "Web Developer",
             "company": "IBM | Pune, MH, IN",
@@ -59,7 +80,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 5,
             "yearRange": "Dec-2018 to Sep-2019",
             "title": "Jr Web Developer",
             "company": "IBM | Pune, MH, IN",
@@ -74,7 +95,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 6,
             "yearRange": "May-2018 to Nov-2018",
             "title": "Jr CC&B Developer",
             "company": "IBM | Pune, MH, IN",
@@ -88,7 +109,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 7,
             "yearRange": "May-2017 to Apr-2018",
             "title": "Animator",
             "company": "Schoov | Gurugram, HR, IN",
@@ -101,7 +122,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 8,
             "yearRange": "Jan-2016 to Apr-2017",
             "title": "Graphic Designer",
             "company": "Freelancer | Remote",

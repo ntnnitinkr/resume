@@ -25,7 +25,7 @@
     position: relative;
     width: 47%;
     margin: 20px 20px;
-    height: 47rem;
+    height: 50rem;
     background: #D4FFE8;
     border-radius: 20px;
     overflow: hidden;
@@ -93,6 +93,42 @@
 
 .container-projects .container-projects-body .section-body .button:hover {
     scale: 1.1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1624px) {
+    .container-projects .section-title {
+        font-size: 60px;
+    }
+
+    .container-projects .container-projects-body .section-body {
+        width: 70%;
+        margin: 20px 0;
+        padding-bottom: 30px;
+        height: auto;
+    }
+
+    .container-projects .container-projects-body .section-body .image-container {
+        height: 13rem;
+    }
+
+    .container-projects .container-projects-body .section-body .image {
+        height: 13rem;
+    }
+
+    .container-projects .container-projects-body .section-body .title {
+        padding: 20px 45px 0 45px;
+        font-size: 32px;
+    }
+
+    .container-projects .container-projects-body .section-body .description {
+        padding: 30px 30px;
+        font-size: 18px;
+    }
+
+    .container-projects .container-projects-body .section-body .button {
+        width: 60%;
+        font-size: 13px;
+    }
 }
 
 @media only screen and (max-width: 768px) {

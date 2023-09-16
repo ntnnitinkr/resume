@@ -91,7 +91,7 @@ const SectionHeader = () => {
           <div className="made-by-text">Made by me, using</div>
           <div className="react-text">React</div>
           <div className="copyright-text">
-            Copyright © 2022. All rights reserved.
+            Copyright © 2023. All rights reserved.
           </div>
         </div>
         <div className="right-section">
